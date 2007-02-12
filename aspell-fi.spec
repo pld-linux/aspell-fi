@@ -1,5 +1,5 @@
 Summary:	Finnish dictionary for aspell
-Summary(pl):	FiÒski s≥ownik dla aspella
+Summary(pl.UTF-8):   Fi≈Ñski s≈Çownik dla aspella
 Name:		aspell-fi
 Version:	0.7
 %define	subv	0
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Finnish dictionary (i.e. word list) for aspell.
 
-%description -l pl
-FiÒski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Fi≈Ñski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell6-fi-%{version}-%{subv}

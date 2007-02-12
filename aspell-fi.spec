@@ -1,5 +1,5 @@
 Summary:	Finnish dictionary for aspell
-Summary(pl.UTF-8):   Fiński słownik dla aspella
+Summary(pl.UTF-8):	Fiński słownik dla aspella
 Name:		aspell-fi
 Version:	0.7
 %define	subv	0

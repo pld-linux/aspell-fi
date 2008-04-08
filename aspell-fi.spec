@@ -6,7 +6,7 @@ Version:	0.7
 Release:	1
 License:	GPL v2
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/fi/aspell6-fi-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/fi/aspell6-fi-%{version}-%{subv}.tar.bz2
 # Source0-md5:	6d1032116982c0efab1af8fce83259c0
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60

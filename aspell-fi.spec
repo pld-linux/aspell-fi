@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Fiński słownik dla aspella
 Name:		aspell-fi
 Version:	0.7
 %define	subv	0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/fi/aspell6-fi-%{version}-%{subv}.tar.bz2

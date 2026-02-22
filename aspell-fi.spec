@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Fiński słownik dla aspella
 Name:		aspell-fi
 Version:	0.7
 %define	subv	0
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/fi/aspell6-fi-%{version}-%{subv}.tar.bz2
@@ -11,6 +11,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/fi/aspell6-fi-%{version}-%{subv}.tar
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
